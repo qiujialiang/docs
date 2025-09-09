@@ -14,9 +14,9 @@
 
 打开命令行窗口，输入sudo apt-get update更新软件包：
 
-![](docs\1.png)
+![](docs/1.png)
 
-<center>图 1 更新软件包</center>
+<p align="center">图 1 更新软件包</p>
 
 输入命令安装以下依赖：
 
@@ -38,70 +38,70 @@ NS3代码维护使用的源码版本控制管理系统：sudo apt-get install me
 
 xml的配置存储软件：sudo apt-get install libxml2
 
-![placeholder](docs\2.png)
+![placeholder](docs/2.png)
 
-<center>图 2 安装相关依赖</center>
+<p align="center">图 2 安装相关依赖</p>
 
 ## 下载NS-3
 
-我们使用的是ns-allinone-3.4.4版本，首先在官网下载压缩包[ns-3.44 | ns-3](https://www.nsnam.org/releases/ns-3-44/)：![placeholder](docs\9.png)
+我们使用的是ns-allinone-3.4.4版本，首先在官网下载压缩包[ns-3.44 | ns-3](https://www.nsnam.org/releases/ns-3-44/)：![placeholder](docs/9.png)
 
-<center>图 3 从官网下载压缩包</center>
+<p align="center">图 3 从官网下载压缩包</p>
 
 压缩包下载后存放至非root文件夹中，并解压：
 
-![placeholder](docs\3.png)
+![placeholder](docs/3.png)
 
-<center>图 4 下载压缩包</center>
+<p align="center">图 4 下载压缩包</p>
 
 解压后可以看到压缩包中包含了bake、ns-3.44等文件，其中build.py为编译脚本、bake为编译器、netainim为图像显示环境、ns-3.44为系统根目录：
 
-![placeholder](docs\4.png)
+![placeholder](docs/4.png)
 
-<center>图 5 解压</center>
+<p align="center">图 5 解压</p>
 
 ## 构建NS-3
 
 在命令行输入./build.py编译，构建时间根据 CPU 核心数量、CPU 和内存的速度以及构建模式所不同：
 
-![placeholder](docs\5.png)
+![placeholder](docs/5.png)
 
-<center>图 6 构建</center>
+<p align="center">图 6 构建</p>
 
 假如编译过程中中断，不可使用上述命令进行继续编译，会报如下错误：
 
-![placeholder](docs\6.png)
+![placeholder](docs/6.png)
 
-<center>图 7 编译报错</center>
+<p align="center">图 7 编译报错</p>
 
 此时，应该进入ns-allinone-3.44/ns-3.44/build目录，使用cmake命令继续编译，也可以清除旧编译缓存，重新编译：
 
-![placeholder](docs\7.png)
+![placeholder](docs/7.png)
 
-<center>图 8 继续编译</center>
+<p align="center">图 8 继续编译</p>
 
 编译成功有如下显示：
 
-![placeholder](docs\8.png)
+![placeholder](docs/8.png)
 
-<center>图 9 编译成功</center>
+<p align="center">图 9 编译成功</p>
 
 ## 测试NS-3
 
 构建完成后，我们可以运行示例测试NS-3能否正常运行。首先输入命令./ns3 configure --enable-examples --enable-tests构建examples和tests的配置：
 
-![placeholder](docs\10.png)
+![placeholder](docs/10.png)
 
-<center>图 10 构建配置</center>
+<p align="center">图 10 构建配置</p>
 
 成功后配置中Examples和Tests应均为ON：
 
-![placeholder](docs\11.png)
+![placeholder](docs/11.png)
 
-<center>图 11 配置成功</center>
+<p align="center">图 11 配置成功</p>
 
 输入./ns3 run first即可运行第一个样例，并正确显示结果：
 
-![placeholder](docs\12.png)
+![placeholder](docs/12.png)
 
-<center>图 12 样例运行成功</center>
+<p align="center">图 12 样例运行成功</p>
