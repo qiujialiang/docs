@@ -1,0 +1,370 @@
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+CABS                               0000   0000 =      0. bytes (ABS,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:0000    l_CABS
+  0C:0000    l_CONST
+  0C:0000    l_GSINIT
+  0C:0000    l_GSINIT1
+  0C:0000    l_GSINIT5
+  0C:0000    l_IABS
+  0C:0000    l_ISEG
+  0C:0000    l_PSEG
+  0C:0000    l_REG_BANK_1
+  0C:0000    l_REG_BANK_2
+  0C:0000    l_REG_BANK_3
+  0C:0000    l_RSEG
+  0C:0000    l_XABS
+  0C:0000    l__CODE
+  0C:0000    s_BSEG
+  0C:0000    s_CABS
+  0C:0000    s_DSEG
+  0C:0000    s_HOME
+  0C:0000    s_IABS
+  0C:0000    s_ISEG
+  0C:0000    s_REG_BANK_0
+  0C:0000    s_XABS
+  0C:0001    l_BIT_BANK
+  0C:0001    l_BSEG
+  0C:0001    l_BSEG_BYTES
+  0C:0003    l_GSFINAL
+  0C:0003    l_GSINIT0
+  0C:0006    l_OSEG
+  0C:0008    l_REG_BANK_0
+  0C:0008    l_XINIT
+  0C:0008    l_XISEG
+  0C:0008    s_REG_BANK_1
+  0C:000A    l_GSINIT2
+  0C:0010    s_REG_BANK_2
+  0C:0018    s_REG_BANK_3
+  0C:0020    s_BSEG_BYTES
+  0C:0020    s__CODE
+  0C:0021    s_BIT_BANK
+  0C:0022    l_GSINIT3
+  0C:0022    s_OSEG
+  0C:0028    s_RSEG
+  0C:0028    s_SSEG
+  0C:002A    l_GSINIT4
+  0C:007B    l_DSEG
+  0C:008B    l_HOME
+  0C:008B    s_GSINIT0
+  0C:008E    s_GSINIT1
+  0C:008E    s_GSINIT2
+  0C:0098    s_GSINIT3
+  0C:00BA    s_GSINIT4
+  0C:00D8    l_SSEG
+  0C:00E4    s_GSFINAL
+  0C:00E4    s_GSINIT
+  0C:00E4    s_GSINIT5
+  0C:00E7    s_CSEG
+  0C:0100    l_IRAM
+  0C:0629    l_XSEG
+  0C:23B0    l_CSEG
+  0C:2497    s_CONST
+  0C:2497    s_XINIT
+  0C:E000    s_PSEG
+  0C:E000    s_XSEG
+  0C:E629    s_XISEG
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+.  .ABS.                           0000   0000 =      0. bytes (ABS,CON)
+
+      Value  Global
+   --------  --------------------------------
+     0086    _U0CSR
+     0087    _P0_7
+     0089    _RFERRIF
+     008B    _URX0IF
+     008F    _URX1IF
+     0091    _RFIM
+     0092    _P1_2
+     0093    _P1_3
+     0094    _P1_4
+     009A    _IEN2
+     009B    _S1CON
+     00A0    __XPAGE
+     00A8    _RFERRIE
+     00AA    _URX0IE
+     00AB    _URX1IE
+     00AF    _EA
+     00B9    _T1IE
+     00BB    _T3IE
+     00BE    _SLEEP
+     00C1    _U0BUF
+     00C2    _U0BAUD
+     00C3    _T3IF
+     00C4    _U0UCR
+     00C5    _U0GCR
+     00C6    _CLKCON
+     00CA    _T3CNT
+     00CB    _T3CTL
+     00CC    _T3CCTL0
+     00CD    _T3CC0
+     00CE    _T3CCTL1
+     00CF    _T3CC1
+     00D8    _TIMIF
+     00D9    _RFD
+     00D9    _T3CH0IF
+     00DA    _T1CC0L
+     00DB    _T1CC0H
+     00E1    _RFST
+     00E2    _T1CNTL
+     00E3    _T1CNTH
+     00E4    _T1CTL
+     00E5    _T1CCTL0
+     00E6    _T1CCTL1
+     00E7    _T1CCTL2
+     00E9    _RFIF
+     00E9    _UTX0IF
+     00EA    _UTX1IF
+     00F1    _PERCFG
+     00F3    _P0SEL
+     00F4    _P1SEL
+     00F5    _B_5
+     00F6    _B_6
+     00F7    _B_7
+     00F8    _U1CSR
+     00F9    _U1DBUF
+     00FA    _U1BAUD
+     00FB    _U1UCR
+     00FC    _U1GCR
+     00FD    _P0_DIR
+     00FE    _P1_DIR
+
+
+
+
+
+
+
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+OSEG                               0022   0006 =      6. bytes (REL,OVR)
+
+      Value  Global
+   --------  --------------------------------
+     0022    _SCSuartDBGM__SCSuartDBG__UARTSend_sloc0_1_0
+     0022    _memcpy_sloc0_1_0
+     0024    _SCSuartDBGM__SCSuartDBG__UARTSend_sloc1_1_0
+     0025    _memcpy_sloc1_1_0
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+SSEG                               0028   00D8 =    216. bytes (REL,OVR)
+
+      Value  Global
+   --------  --------------------------------
+     0028    __start__stack
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+XSEG                               E000   0629 =   1577. bytes (REL,CON,XDATA)
+
+      Value  Global
+   --------  --------------------------------
+  0D:E000    _SchedulerBasicP__m_head
+  0D:E001    _SchedulerBasicP__m_tail
+  0D:E002    _SchedulerBasicP__m_next
+  0D:E012    _Adhoc_APPM__RF_MSG
+  0D:E042    _Adhoc_APPM__Serial_MSG
+  0D:E072    _Adhoc_APPM__APP_Seq
+  0D:E074    _SCS_VTimerP__0__mInterval
+  0D:E075    _SCS_VTimerP__0__queue_head
+  0D:E076    _SCS_VTimerP__0__queue_tail
+  0D:E077    _SCS_VTimerP__0__queue_size
+  0D:E078    _SCS_VTimerP__0__queue
+  0D:E07C    _SCS_VTimerP__0__mTimerList
+  0D:E0A0    _FloodingM__SendMsg
+  0D:E0D0    _FloodingM__RecvMsg
+  0D:E100    _FloodingM__ForwardMsg
+  0D:E1F0    _FloodingM__NWKF
+  0D:E208    _FloodingM__Next_Addr
+  0D:E20A    _FloodingM__Forward_Buff_Index
+  0D:E20B    _FloodingM__RTable_Index
+  0D:E20C    _FloodingM__mySequence
+  0D:E20D    _FloodingM__RTable
+  0D:E271    _RandomC__RSeq
+  0D:E272    _RandomC__Rseed
+  0D:E274    _RandomC__randValue16
+  0D:E276    _CC2430ActiveMessageM__RF_Status
+  0D:E277    _CC2430ActiveMessageM__MAC_Seq
+  0D:E278    _CC2430ActiveMessageM__NumReTX
+  0D:E279    _CC2430ActiveMessageM__AckEnable
+  0D:E27A    _CC2430ActiveMessageM__TX_Ready_Msg
+  0D:E27D    _HAL_CC2430ControlM__transmitPacketPtr
+  0D:E280    _HAL_CC2430ControlM__transmitPacket
+  0D:E300    _HAL_CC2430ControlM__receivedPacket
+  0D:E380    _HAL_CC2430ControlM__currentPower
+  0D:E381    _HAL_CC2430ControlM__currentChannel
+  0D:E382    _HAL_CC2430ControlM__SendDoneError
+  0D:E383    _HAL_CC2430ControlM__transmitInProgress
+  0D:E384    _HAL_CC2430ControlM__WaitACK_Flag
+  0D:E385    _BusyWaitMicroC__MicroValue_
+  0D:E386    _SCSuartDBGM__str_buff
+  0D:E405    _AMQueueImplP__0__queue
+  0D:E408    _SerialActiveMessageP__0__NowReceiving
+  0D:E409    _SerialActiveMessageP__0__Rindex
+  0D:E40A    _SerialActiveMessageP__0__Escape_Flag
+  0D:E40B    _SerialActiveMessageP__0__RecvBuff
+  0D:E48A    _SerialActiveMessageP__0__RecvAckType
+  0D:E48B    _SerialActiveMessageP__0__SendBuff
+  0D:E50A    _SerialActiveMessageP__0__SendProcessing
+  0D:E50B    _SerialActiveMessageP__0__UartRecvMessag
+  0D:E577    _SCSuartDBGM__SCSuartDBG__UARTSend_PARM_2
+  0D:E57C    _CC2430ActiveMessageM__AMSend__send_PARM_2
+  0D:E57E    _CC2430ActiveMessageM__AMSend__send_PARM_3
+  0D:E581    _CC2430ActiveMessageM__AMSend__send_PARM_4
+  0D:E58A    _AMQueueImplP__0__AMSend__sendDone_PARM_2
+  0D:E58F    _CC2430ActiveMessageM__Packet__getPayload_PARM_2
+  0D:E5CC    _SCS_VTimerP__0__startTimer_PARM_2
+  0D:E5D0    _SCS_VTimerP__0__startTimer_PARM_3
+  0D:E5FD    _AMQueueEntryP__0__AMSend__send_PARM_2
+  0D:E600    _AMQueueEntryP__0__AMSend__send_PARM_3
+  0D:E609    _crcByte_PARM_2
+  0D:E613    __divuint_PARM_2
+  0D:E619    _memcpy_PARM_2
+  0D:E61C    _memcpy_PARM_3
+  0D:E621    __gptrput_PARM_2
+  0D:E622    __mulint_PARM_2
+  0D:E624    __moduint_PARM_2
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+XISEG                              E629   0008 =      8. bytes (REL,CON,XDATA)
+
+      Value  Global
+   --------  --------------------------------
+  0D:E629    _TOS_NODE_ID
+  0D:E62B    _SCSuartDBGM__state
+  0D:E62C    _SCSuartDBGM__buff_start
+  0D:E62E    _SCSuartDBGM__buff_end
+  0D:E630    _AMQueueImplP__0__current
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+HOME                               0000   008B =    139. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:0086    __sdcc_program_startup
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+GSINIT0                            008B   0003 =      3. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:008B    __sdcc_gsinit_startup
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+GSINIT3                            0098   0022 =     34. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:0098    __mcs51_genXINIT
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+GSINIT4                            00BA   002A =     42. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:00BA    __mcs51_genRAMCLEAR
+  0C:00C0    __mcs51_genXRAMCLEAR
+
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+CSEG                               00E7   23B0 =   9136. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:00E7    _main
+  0C:1E11    ___vector_9
+  0C:1E8B    ___vector_0
+  0C:1EB2    ___vector_16
+  0C:1F58    ___vector_2
+  0C:2143    ___vector_7
+  0C:2209    ___vector_3
+  0C:2212    ___vector_14
+  0C:2229    ___vector_11
+  0C:2281    __divuint
+  0C:231B    _memcpy
+  0C:2391    __gptrput
+  0C:23AA    __mulint
+  0C:23CA    __moduint
+  0C:2477    __gptrget
+  0C:2493    __sdcc_external_startup
+
+
+ASxxxx Linker V01.75 + NoICE + SDCC Feb 1999,  page 1.
+
+Files Linked      [ module(s) ]
+
+build/cc2431/app.rel
+
+Libraries Linked            [   object  file   ]
+
+c:\Program Files\SDCC\bin\..\lib\large/libint.lib    [         _divuint ]
+c:\Program Files\SDCC\bin\..\lib\large/mcs51.lib    [     crtclear.rel ]
+c:\Program Files\SDCC\bin\..\lib\large/libsdcc.lib    [          _memcpy ]
+c:\Program Files\SDCC\bin\..\lib\large/mcs51.lib    [     crtxinit.rel ]
+c:\Program Files\SDCC\bin\..\lib\large/libsdcc.lib    [         _gptrput ]
+c:\Program Files\SDCC\bin\..\lib\large/libint.lib    [          _mulint ]
+c:\Program Files\SDCC\bin\..\lib\large/libint.lib    [         _moduint ]
+c:\Program Files\SDCC\bin\..\lib\large/mcs51.lib    [    crtxclear.rel ]
+c:\Program Files\SDCC\bin\..\lib\large/mcs51.lib    [   crtpagesfr.rel ]
+c:\Program Files\SDCC\bin\..\lib\large/mcs51.lib    [     crtstart.rel ]
+c:\Program Files\SDCC\bin\..\lib\large/libsdcc.lib    [         _gptrget ]
+c:\Program Files\SDCC\bin\..\lib\large/libsdcc.lib    [         _startup ]
+
+ASxxxx Linker V01.75 + NoICE + SDCC Feb 1999,  page 2.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0xe000
+PSEG = 0xe000
+ISEG = 0x0000
+BSEG = 0x0000
+
+

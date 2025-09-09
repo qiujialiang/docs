@@ -1,0 +1,130 @@
+/* ===== 全局样式 ===== */
+QWidget {
+    font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+    font-size: 10pt;
+    background-color: #f5f7fa;
+    color: #333333;
+}
+
+/* ===== 主窗口 ===== */
+QMainWindow {
+    background-color: #f0f2f5;
+}
+
+/* ===== 分组框 ===== */
+QGroupBox {
+    border: 1px solid #d1d9e0;
+    border-radius: 6px;
+    margin-top: 1.5ex;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 8px;
+    background-color: transparent;
+    color: #3a6ea5;
+}
+
+/* ===== 按钮 ===== */
+QPushButton {
+    background-color: #3a6ea5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: 500;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #2d5590;
+}
+
+QPushButton:pressed {
+    background-color: #1e3c6c;
+}
+
+/* ===== 表格 ===== */
+QTableWidget {
+    gridline-color: #d1d9e0;
+    background-color: white;
+    border: 1px solid #d1d9e0;
+    border-radius: 4px;
+    selection-background-color: #d6e4f7;
+    selection-color: #333333;
+}
+
+QHeaderView::section {
+    background-color: #e8ecef;
+    color: #3a6ea5;
+    padding: 6px;
+    border: none;
+    font-weight: bold;
+}
+
+QTableCornerButton::section {
+    background-color: #e8ecef;
+    border: none;
+}
+
+/* ===== 标签 ===== */
+QLabel {
+    color: #444444;
+    padding: 2px 0;
+}
+
+/* ===== 输入框 ===== */
+QLineEdit {
+    background-color: white;
+    border: 1px solid #d1d9e0;
+    border-radius: 4px;
+    padding: 6px 8px;
+    selection-background-color: #d6e4f7;
+}
+
+QLineEdit:focus {
+    border: 1px solid #3a6ea5;
+}
+
+/* ===== 复选框 & 单选按钮 ===== */
+QCheckBox, QRadioButton {
+    spacing: 8px;
+    color: #444444;
+}
+
+QCheckBox::indicator, QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #d1d9e0;
+    border-radius: 3px;
+}
+
+QCheckBox::indicator {
+    background-color: white;
+}
+
+QRadioButton::indicator {
+    border-radius: 8px;
+}
+
+QCheckBox::indicator:checked, QRadioButton::indicator:checked {
+    background-color: #3a6ea5;
+    border: 1px solid #3a6ea5;
+}
+
+/* ===== 对话框 ===== */
+QDialog {
+    background-color: #f5f7fa;
+    border: 1px solid #d1d9e0;
+    border-radius: 6px;
+}
+
+/* ===== 状态栏 ===== */
+QStatusBar {
+    background-color: #e8ecef;
+    color: #666666;
+    border-top: 1px solid #d1d9e0;
+}

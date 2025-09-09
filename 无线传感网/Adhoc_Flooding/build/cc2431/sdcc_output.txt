@@ -1,0 +1,27 @@
+build/cc2431/app.c:177: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:183: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:185: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:187: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:189: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:191: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:193: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:195: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:820: warning 126: unreachable code
+strncpyz prevented buffer overrun!
+strncpyz prevented buffer overrun!
+strncpyz prevented buffer overrun!
+build/cc2431/app.c:1794: warning 126: unreachable code
+build/cc2431/app.c:1794: warning 126: unreachable code
+build/cc2431/app.c:1796: warning 126: unreachable code
+build/cc2431/app.c:1796: warning 126: unreachable code
+build/cc2431/app.c:1796: warning 126: unreachable code
+build/cc2431/app.c:2261: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:2293: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:2318: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:2365: warning 166: useless declaration (possible use of keyword as variable name)
+strncpyz prevented buffer overrun!
+strncpyz prevented buffer overrun!
+build/cc2431/app.c:2478: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:2520: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:2534: warning 166: useless declaration (possible use of keyword as variable name)
+build/cc2431/app.c:2550: warning 166: useless declaration (possible use of keyword as variable name)

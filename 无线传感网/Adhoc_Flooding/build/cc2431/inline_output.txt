@@ -1,0 +1,108 @@
+Regular inlining
+     0.436 setup
+     0.483 entry point: __vector_0
+     0.483 entry point: __vector_1
+     0.483 entry point: __vector_10
+     0.483 entry point: __vector_11
+     0.483 entry point: __vector_12
+     0.483 entry point: __vector_13
+     0.483 entry point: __vector_14
+     0.483 entry point: __vector_15
+     0.483 entry point: __vector_16
+     0.483 entry point: __vector_17
+     0.483 entry point: __vector_2
+     0.483 entry point: __vector_3
+     0.483 entry point: __vector_4
+     0.483 entry point: __vector_5
+     0.483 entry point: __vector_6
+     0.483 entry point: __vector_7
+     0.483 entry point: __vector_8
+     0.483 entry point: __vector_9
+     0.483 entry point: main
+     0.483 folding constants 1
+     0.514 remove unused temps 1
+     0.53 compact stmts 1
+     0.53 updating vaddrof flags 1
+     0.546 copy propagation 1
+     0.749 remove unused vars 1
+     0.749     * (1)
+     0.921     * (2)
+     1.077     * (3)
+     1.233     * (4)
+     1.389 remove useless ifs and loops 1
+     1.389 dereferencing address-of 1
+     1.389 cleaning switches 1
+     1.421 brackets and dummy stmts 1
+     1.421 remove useless gotos 1
+     1.421 remove useless labels 1
+     1.421 folding constants 2
+     1.436 remove unused temps 2
+     1.436 compact stmts 2
+     1.436 updating vaddrof flags 2
+     1.436 copy propagation 2
+     1.452 remove unused vars 2
+     1.452     * (1)
+     1.483     * (2)
+     1.514 remove useless ifs and loops 2
+     1.514 dereferencing address-of 2
+     1.514 cleaning switches 2
+     1.514 brackets and dummy stmts 2
+     1.514 remove useless gotos 2
+     1.514 remove useless labels 2
+     1.514 folding constants 3
+     1.514 remove unused temps 3
+     1.53 compact stmts 3
+     1.53 updating vaddrof flags 3
+     1.53 copy propagation 3
+     1.546 remove unused vars 3
+     1.546     * (1)
+     1.561     * (2)
+     1.592 remove useless ifs and loops 3
+     1.592 dereferencing address-of 3
+     1.592 cleaning switches 3
+     1.592 brackets and dummy stmts 3
+     1.608 remove useless gotos 3
+     1.608 remove useless labels 3
+     1.608 folding constants 4
+     1.608 remove unused temps 4
+     1.608 compact stmts 4
+     1.608 updating vaddrof flags 4
+     1.608 copy propagation 4
+     1.624 remove unused vars 4
+     1.624     * (1)
+     1.655     * (2)
+     1.686 remove useless ifs and loops 4
+     1.686 dereferencing address-of 4
+     1.686 cleaning switches 4
+     1.686 brackets and dummy stmts 4
+     1.686 remove useless gotos 4
+     1.686 remove useless labels 4
+     1.686 folding constants 5
+     1.686 remove unused temps 5
+     1.702 compact stmts 5
+     1.702 updating vaddrof flags 5
+     1.702 copy propagation 5
+     1.717 remove unused vars 5
+     1.717     * (1)
+     1.733     * (2)
+     1.764     * (3)
+     1.796 remove useless ifs and loops 5
+     1.796 dereferencing address-of 5
+     1.796 cleaning switches 5
+     1.796 brackets and dummy stmts 5
+     1.796 remove useless gotos 5
+     1.796 remove useless labels 5
+     1.796 folding constants 6
+     1.796 remove unused temps 6
+     1.811 compact stmts 6
+     1.811 updating vaddrof flags 6
+     1.811 copy propagation 6
+     1.827 remove unused vars 6
+     1.827     * (1)
+     1.842 remove useless ifs and loops 6
+     1.842 dereferencing address-of 6
+     1.842 cleaning switches 6
+     1.858 brackets and dummy stmts 6
+     1.858 remove useless gotos 6
+     1.858 remove useless labels 6
+     1.858 remove unused temps FINAL
